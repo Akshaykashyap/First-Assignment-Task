@@ -1,0 +1,230 @@
+/* Custom style file */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* style for the Business development section */
+
+.card-body {
+    width: 600px;
+    margin: 60px auto;
+    padding: 40px 40px;
+    background-color: #1DE592;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.card-heading {
+    font-size: 60px;
+    font-weight: bold;
+    width: 50%;
+    margin-top: 40px;
+}
+
+.card-message {
+    font-size: 19px;
+    padding: 30px 0;
+    font-weight: 500;
+}
+
+.btn {
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 20px 40px;
+    border: none;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+
+/* end section */
+
+
+/* Style for Profile section */
+
+.profile-seciion-wrap {
+    width: 600px;
+    margin: 60px auto;
+    border: 2px solid #dedede;
+    border-radius: 10px;
+}
+
+.profile-section {
+    padding: 15px 30px;
+}
+
+h1.profile-title {
+    font-size: 30px;
+    font-weight: 500;
+    padding: 20px 0;
+}
+
+p.sub-text {
+    font-size: 20px;
+    width: 90%;
+    color: #63676A;
+    font-weight: 500;
+}
+
+.see-profile-section {
+    padding: 30px;
+    border-top: 2px solid #dedede;
+}
+
+.profile-img-section img {
+    width: 100px;
+    border-radius: 50%;
+    margin: 40px 50px;
+}
+
+.see-profile-section a {
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+/* End Profile section */
+
+
+/* Google profile and description section */
+
+.google-photos-section {
+    width: 600px;
+    margin: 60px auto;
+    border: 2px solid #dedede;
+    border-radius: 14px;
+}
+
+.google-banner-img {
+    width: 100%;
+    background-size: cover;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    height: 350px;
+}
+
+.google-photo-body-section {
+    padding: 40px 20px;
+}
+
+.subscript-text-wrap {
+    padding-bottom: 10px;
+}
+
+.subscript-text-wrap span {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-left: 15px;
+    color: #63676A;
+}
+
+.google-photo-body-section h2 {
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    line-height: 40px;
+}
+
+p.google-photo-description {
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    color: #63676A;
+}
+
+button.google-view-btn {
+    border: 1px solid #dedede;
+    padding: 20px 30px;
+    border-radius: 5px;
+    color: #1E74E8;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+
+/* End Google profile desction section  */
+
+
+/* Style for the login page */
+
+.login-form-section {
+    text-align: center;
+    width: 600px;
+    margin: 60px auto;
+}
+
+.input-text {
+    width: 80%;
+    padding: 14px;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    color: #dedede;
+    font-weight: 600;
+}
+
+.fldesk {
+    height: 80px;
+}
+
+.btn-flodesk {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    width: 65%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 40px;
+    font-size: 20px;
+    margin: 30px 0;
+    cursor: pointer;
+}
+
+p.welcome-text {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 40px 0;
+}
+
+.discription {
+    font-size: 16px;
+    color: #ccc;
+    margin: 20px 0;
+}
+
+.discription .login-terms {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.login-member {
+    font-size: 16px;
+    color: #ccc;
+}
+
+.login-member-signup,
+.login-member-signup {
+    color: #000;
+    text-decoration: underline;
+}
+
+
+/* End login page */
